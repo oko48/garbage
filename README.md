@@ -1,3 +1,3 @@
 # garbage
-[Эскиз мобильного приложения][1]
-[1]:https://ninjamock.com/s/4CWJXSx
+Эскиз мобильного приложения
+> https://ninjamock.com/s/4CWJXSx
