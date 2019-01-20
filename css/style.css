@@ -1,0 +1,46 @@
+body{
+	font-size: 16px;
+	font-family: 'panton_semiboldregular';
+	margin-bottom: -0.5rem;	
+}
+p{
+	margin: 0.5rem;
+}
+h2{
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.wrapper {
+	display: grid;
+	width: 50%;    
+	margin: 0 auto;
+	background: url('../page5/paper.jpg') no-repeat, #a6c9e5 url('../page5/paper-2.jpg') repeat-y;
+	background-size: contain;
+	-webkit-background-size: contain;
+	
+}
+.item1 {
+	margin-top: 63vw;
+    padding: 0 6vw;
+    color: white;
+    text-align: justify;	
+}
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px){
+	.wrapper {width: 100% !important;}
+	.item1 { margin-top: 125vw; padding: 0 11vw;}
+	}
+
+@font-face {
+    font-family: 'panton_semiboldregular';
+    src: url('../fonts/panton-semibold-webfont.eot');
+    src: url('../fonts/panton-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panton-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/panton-semibold-webfont.woff') format('woff'),
+         url('../fonts/panton-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
